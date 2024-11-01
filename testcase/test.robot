@@ -15,7 +15,7 @@ ${products_list}    Sauce Labs Backpack    Sauce Labs Bike Light
 
 *** Test Cases ***
 # log in section
- alidate unsuccesful login with invalid password
+ Validate unsuccesful login with invalid password
      loginPage.Fill the login form    ${username_valid}   ${username_invalid}
      loginPage.Verify unsuccesful login
  Validate unsuccesful login with invalid username
